@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
+#primeiro-colocado {
+    font-weight: bold;
+    color: crimson;
+}
+.impar {
+    color: gold;
+    background-color: crimson;
+    font-weight: bold;
+}
+.destaque {
+    font-size: 30px;
+}
