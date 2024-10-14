@@ -1,44 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Links</title>
-</head>
-<body>
-    <h1>Exercicíos HTML & CSS</h1>
 
-<ul>
-    <li>
-        <a href="./Index.html">Index 1</a>
-    </li>
-    <li>
-        <a href="./Index2.html">Index 2</a>
-    </li>
-    <li>
-        <a href="./Index3.html">Index 3</a>
-    </li>
-    <li>
-        <a href="./Index4.html">Index 4</a>
-    </li>
-    <li>
-        <a href="./Cascata.html">Efeito cascata</a>
-    </li>
-    <li>
-        <a href="./Herança.html">Herança css</a>
-    </li>
-    <li>
-        <a href="./ModeloCaixa.html">Modelo caixa e margem combinada css</a>
-    </li>
-    <li>
-        <a href="./Display1.html">Propriedade display css</a>
-    </li>
-    <li>
-        <a href="./Display2.html">Propriedade display 2 css</a>
-    </li>
-    <li>
-        <a href="./Seletores1.html">Seletores css</a>
-    </li>
-</ul>
-</body>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: black;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+      }
+
+      #conteudo {
+        border: dimgray solid 5px;
+        background-color: gray;
+        padding: 10px;
+        margin: 20px 20px 0px 20px;
+      }
+
+      .lista {
+        background-color: white; 
+        margin: 0px 20px 20px 20px;
+      }
+
+      ul, li, a {
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        width: 100%;
+      }
+
+      li:hover {
+        background-color: gray;
+      }
+
+      a:hover {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="conteudo">
+      <h1>Exercicíos HTML & CSS</h1>
+    </div>
+    <div class="lista">
+      <ul>
+        <li>
+          <a href="./Index.html">Index 1</a>
+        </li>
+        <li>
+          <a href="./Index2.html">Index 2</a>
+        </li>
+        <li>
+          <a href="./Index3.html">Index 3</a>
+        </li>
+        <li>
+          <a href="./Index4.html">Index 4</a>
+        </li>
+        <li>
+          <a href="./Cascata.html">Efeito cascata</a>
+        </li>
+        <li>
+          <a href="./Herança.html">Herança css</a>
+        </li>
+        <li>
+          <a href="./ModeloCaixa.html">Modelo caixa e margem combinada css</a>
+        </li>
+        <li>
+          <a href="./Display1.html">Propriedade display css</a>
+        </li>
+        <li>
+          <a href="./Display2.html">Propriedade display 2 css</a>
+        </li>
+        <li>
+          <a href="./Seletores1.html">Seletores css</a>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
