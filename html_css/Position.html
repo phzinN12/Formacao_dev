@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 40px;
+        }
+
+        div {
+            padding: 30px;
+            border: solid 5px white;
+        }
+
+        .static {
+            position: static;
+            background-color: dodgerblue;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: purple;
+        }
+
+        .relative {
+            position: relative;
+            top: 10px;
+            left: 25px;
+            background-color: forestgreen;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: crimson;
+        }
+
+        .sticky {
+            position: sticky;
+            background-color: dimgray;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="static">Estático (padrão)</div>
+    <div class="fixed"> Fixo</div>
+    <div class="relative">Relativo</div>
+    <div class="absolute">Absoluto</div>
+    <div class="relative">
+        Relativo
+        <div class="absolute">Absoluto</div>
+    </div>
+    <div class="sticky">Pegajoso</div>
+</body>
+</html>
